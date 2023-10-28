@@ -26,9 +26,12 @@
 
 1. **Simple Online Python Compiler**:
    - This web application is designed to allow users to write and execute Python code online. It usesHTML, CSS, and Javascript to provide a user-friendly interface. Users can input Python code, run it, and see the output.
+   - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/online-python-compiler.html)
 
 2. **Github Profile Search**:
    - This web application is focused on searching for GitHub profiles and retrieving information about users. It utilizes HTML, CSS, and Javascript to create an intuitive interface for users to input a username, search for a GitHub profile, and view the results.
+   - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/github-profile-search.html)
 
 3. **Fancy Font Generator**:
    - This web application is a tool for generating text in various fancy or decorative fonts. It employs HTML, CSS, and Javascript to create an interface where users can enter plain text, select a fancy font style, and generate the stylized text output.
+   - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/fancy-font-generator.html)
