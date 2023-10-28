@@ -27,7 +27,7 @@
 1. **Simple Online Python Compiler**:
    - This web application is designed to allow users to write and execute Python code online. It usesHTML, CSS, and Javascript to provide a user-friendly interface. Users can input Python code, run it, and see the output.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/python-online-compiler.html)
-   - [Demo](https:sreeju7733.github.io/Python-Compiler/)
+   - [Demo](https://sreeju7733.github.io/Python-Compiler/)
 
 2. **Github Profile Search**:
    - This web application is focused on searching for GitHub profiles and retrieving information about users. It utilizes HTML, CSS, and Javascript to create an intuitive interface for users to input a username, search for a GitHub profile, and view the results.
