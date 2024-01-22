@@ -15,7 +15,7 @@
 4. **FLAMES**:
    - This flames calculator is used to finds the compatibility between you and your partner.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/flames-using-python.html)
-   - [Demo](https://sreeju7733.github.io/projects/flames-using-python)
+   - [Demo](https://sreeju7733.github.io/projects/flames)
 
 
 ## PHP
