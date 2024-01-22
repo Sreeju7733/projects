@@ -2,14 +2,11 @@
 
 <html>
     <head>
-        <!-- Recommended meta tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
         <!-- PyScript CSS -->
         <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
-        <!-- CSS for examples -->
-        <link rel="stylesheet" href="./assets/css/examples.css" />
 
         <!-- This script tag bootstraps PyScript -->
         <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
@@ -24,7 +21,7 @@
             loading.showModal();
         </script>
 
-        <title>PyScript Hello World</title>
+        <title>Flames Using Python</title>
         <link rel="icon" type="image/png" href="./assets/favicon.png" />
     </head>
 
@@ -35,21 +32,47 @@
 
         <nav class="navbar" style="background-color: #000000">
             <div class="app-header">
-                <a href="/">
-                    <img src="./assets/logo.png" class="logo" />
-                </a>
-                <a class="title" href="" style="color: #f0ab3c">Hello World</a>
+                <a class="title" href="" style="color: #f0ab3c">Flames Using Python</a>
             </div>
         </nav>
 
         <section class="pyscript">
-            Hello world! <br />
-            This is the current date and time, as computed by Python:
             <script type="py">
-                from pyscript import display
-                from datetime import datetime
-                now = datetime.now()
-                display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+				dct = {
+				    'F': 'Friend',
+				    'L': 'Lover',
+				    'A': 'Affection',
+				    'M': 'Marriage',
+				    'E': 'Enemy',
+				    'S': 'Sister'
+				}
+				
+				name1 = input("Enter your name: ").lower()
+				name2 = input("Enter your crush or friend name: ").lower()
+				
+				print(f'\n{name1 = }')
+				print(f'{name2 = }\n')
+				
+				n1 = name1
+				name1 = list(name1)
+				name2 = list(name2)
+				
+				while ' ' in name1:
+				    name1.remove(' ')
+				while ' ' in name2:
+				    name2.remove(' ')
+				
+				for i in n1:
+				    if i in name2:
+				        name1.remove(i)
+				        name2.remove(i)
+				
+				while len(flames) > 1:
+				    rltn = flames[((len(name1) + len(name2)) % len(flames)) - 1]
+				    index = flames.index(rltn)
+				    flames = flames[index + 1:] + flames[:index]
+				
+				print('\n', dct[flames[0]], sep='')
             </script>
         </section>
     </body>
