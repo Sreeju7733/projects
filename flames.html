@@ -63,9 +63,10 @@
             }
 
             while (flames.length > 1) {
-                var rltn = flames[((name1.length + name2.length) % flames.length) - 1];
-                var index = flames.indexOf(rltn);
-                flames = flames.slice(index + 1).concat(flames.slice(0, index));
+                var index = ((name1.length + name2.length) % flames.length) - 1;
+                index = index >= 0 ? index : flames.length - 1; // Ensure a positive index
+                var rltn = flames.splice(index, 1)[0];
+                flames = flames.concat(flames.splice(0, index));
             }
 
             document.getElementById('result').innerHTML = '<br>' + dct[flames[0]];
