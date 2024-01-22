@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        input {
+            padding: 5px;
+            margin: 5px;
+        }
+        button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+        #result {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FLAMES Calculator</h1>
+    <label for="name1">Enter your name: </label>
+    <input type="text" id="name1" placeholder="Your Name">
+    <br>
+    <label for="name2">Enter your crush or friend name: </label>
+    <input type="text" id="name2" placeholder="Crush/Friend Name">
+    <br>
+    <button onclick="calculateFlames()">Calculate</button>
+    <div id="result"></div>
+
+    <script>
+        function calculateFlames() {
+            var flames = ['F', 'L', 'A', 'M', 'E', 'S'];
+            var dct = {
+                'F': 'Friend',
+                'L': 'Lover',
+                'A': 'Affection',
+                'M': 'Marriage',
+                'E': 'Enemy',
+                'S': 'Sister'
+            };
+
+            var name1 = document.getElementById('name1').value.toLowerCase();
+            var name2 = document.getElementById('name2').value.toLowerCase();
+
+            var n1 = name1;
+            name1 = name1.replace(/\s/g, '').split('');
+            name2 = name2.replace(/\s/g, '').split('');
+
+            for (var i = 0; i < n1.length; i++) {
+                if (name2.indexOf(n1[i]) !== -1) {
+                    name1.splice(name1.indexOf(n1[i]), 1);
+                    name2.splice(name2.indexOf(n1[i]), 1);
+                }
+            }
+
+            while (flames.length > 1) {
+                var rltn = flames[((name1.length + name2.length) % flames.length) - 1];
+                var index = flames.indexOf(rltn);
+                flames = flames.slice(index + 1).concat(flames.slice(0, index));
+            }
+
+            document.getElementById('result').innerHTML = '<br>' + dct[flames[0]];
+        }
+    </script>
+</body>
+</html>
