@@ -11,7 +11,11 @@
 3. **Weather App**:
    - Python application that fetches and displays real-time weather data for a specified city using OpenWeatherMap API.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/weather-app.py)
-
+  
+4. **FLAMES**:
+   - This flames calculator is used to finds the compatibility between you and your partner.
+   - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/flames-using-python.html)
+   - [Demo](https://sreeju7733.github.io/projects/flames-using-python)
 
 
 ## PHP
