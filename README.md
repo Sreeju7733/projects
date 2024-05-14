@@ -16,7 +16,10 @@
    - This flames calculator is used to finds the compatibility between you and your partner.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/flames-using-python.html)
    - [Demo](https://sreeju7733.github.io/projects/flames)
-
+  
+5. **Simple Notification**:
+   - This code imports the notification module from plyer and then calls the notify function to display a notification. You can customize the title, message, application name, and timeout according to your needs.
+   - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/notification.py)
 
 ## PHP
 
@@ -40,3 +43,7 @@
 3. **Fancy Font Generator**:
    - This web application is a tool for generating text in various fancy or decorative fonts. It employs HTML, CSS, and Javascript to create an interface where users can enter plain text, select a fancy font style, and generate the stylized text output.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/fancy-font-generator.html)
+
+4. **Neumorphism UI Keyboard**:
+   - A simple Neumorphism-style keyboard UI with rounded buttons and subtle shadows for depth effect. .
+   - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/Neumorphism%20ui%20Keyboard-05.html)
