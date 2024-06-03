@@ -5,38 +5,41 @@
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/gui-calculator.py)
 
 2. **URL Shortener**:
-   - A URL shortening Python script that converts long URLs into short links for easy sharing.
+   - A URL-shortening Python script that converts long URLs into short links for easy sharing.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/url-shortener.py)
 
 3. **Weather App**:
-   - Python application that fetches and displays real-time weather data for a specified city using OpenWeatherMap API.
+   - Python application fetches and displays real-time weather data for a specified city using OpenWeatherMap API.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/weather-app.py)
   
 4. **FLAMES**:
-   - This flames calculator is used to finds the compatibility between you and your partner.
+   - This flames calculator is used to find the compatibility between you and your partner.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/flames-using-python.html)
    - [Demo](https://sreeju7733.github.io/projects/flames)
   
 5. **Simple Notification**:
    - This code imports the notification module from plyer and then calls the notify function to display a notification. You can customize the title, message, application name, and timeout according to your needs.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/notification.py)
+  
+6. **File Encryptor**:
+   - ChiperPack is a tool that helps keep your files safe by encrypting them. Encryption means converting your file into a secret code that only you can unlock with a special key.
+   - [View Code on GitHub](https://github.com/Sreeju7733/ChiperPack)
 
 ## PHP
 
 1. **Simple Event Calendar Web Application**:
    - This web application allows users to add and manage upcoming events. It uses HTML, PHP, and Bootstrap for a user-friendly interface. Users can input event details, add events, and delete them as needed.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/event-calendar.php)
-
   
 
 ## HTML, CSS, and Javascript
 
 1. **Simple Online Python Compiler**:
-   - This web application is designed to allow users to write and execute Python code online. It usesHTML, CSS, and Javascript to provide a user-friendly interface. Users can input Python code, run it, and see the output.
+   - This web application is designed to allow users to write and execute Python code online. It uses HTML, CSS, and Javascript to provide a user-friendly interface. Users can input Python code, run it, and see the output.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/python-online-compiler.html)
    - [Demo](https://sreeju7733.github.io/Python-Compiler/)
 
-2. **Github Profile Search**:
+2. **GitHub Profile Search**:
    - This web application is focused on searching for GitHub profiles and retrieving information about users. It utilizes HTML, CSS, and Javascript to create an intuitive interface for users to input a username, search for a GitHub profile, and view the results.
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/github-profile-search.html)
 
@@ -47,3 +50,7 @@
 4. **Neumorphism UI Keyboard**:
    - A simple Neumorphism-style keyboard UI with rounded buttons and subtle shadows for depth effect. .
    - [View Code on GitHub](https://github.com/Sreeju7733/projects/blob/main/Neumorphism%20ui%20Keyboard-05.html)
+
+5. **FLAMES**:
+   - This flames calculator is used to find the compatibility between you and your partner.
+   - [Demo](https://sreeju7733.github.io/projects/flames)
